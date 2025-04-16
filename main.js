@@ -67,6 +67,30 @@ ScrollReveal().reveal(".about__card", {
   delay: 500,
 });
 
+ScrollReveal().reveal(".service__card", {
+    ...scrollRevealOption,
+    origin: "right",
+    duration: 1000,
+    interval: 500,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".product__card", {
+    ...scrollRevealOption,
+    origin: "top",
+    duration: 1000,
+    interval: 500,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".tabela-horario tr", {
+    ...scrollRevealOption,
+    origin: "top",
+    duration: 1000,
+    interval: 500,
+    delay: 500,
+});
+
 const swiper = new Swiper(".swiper", {
   loop: true,
 });
