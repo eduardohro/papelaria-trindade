@@ -20,6 +20,11 @@ navSearch.addEventListener("click", (e) => {
   navSearch.classList.toggle("open");
 });
 
+window.addEventListener("scroll", () => {
+    const nav = document.querySelector("nav");
+    nav.classList.toggle("sticky", window.scrollY > 50);
+});
+
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
