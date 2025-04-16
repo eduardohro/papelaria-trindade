@@ -17,6 +17,19 @@
   box-sizing: border-box;
 }
 
+section {
+    scroll-margin-top: 100px; 
+}
+
+#home,
+#about,
+#services,
+#product,
+#contact {
+    scroll-margin-top: 100px;
+}
+  
+
 .section__container {
     max-width: var(--max-width);
     margin: auto;
@@ -201,7 +214,7 @@ nav {
   
 .header__content h1 {
     margin-bottom: 1rem;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     font-family: var(--header-font);
     color: var(--white);
