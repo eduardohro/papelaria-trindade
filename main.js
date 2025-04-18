@@ -94,3 +94,30 @@ ScrollReveal().reveal(".tabela-horario tr", {
 const swiper = new Swiper(".swiper", {
   loop: true,
 });
+
+
+
+
+const categoryLinks = document.querySelectorAll(".category-list a");
+  const productCards = document.querySelectorAll(".product-card");
+
+  categoryLinks.forEach(link => {
+    link.addEventListener("click", function(e) {
+      e.preventDefault();
+
+
+      categoryLinks.forEach(l => l.classList.remove("active"));
+
+      this.classList.add("active");
+
+      const category = this.getAttribute("data-category");
+
+      productCards.forEach(card => {
+        if (category === "todos" || card.getAttribute("data-category") === category) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+});

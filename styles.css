@@ -288,12 +288,15 @@ nav {
     outline: none;
     border: none;
     font-size: 1rem;
-    color: var(--white);
     white-space: nowrap;
     background-color: var(--primary-color);
     border-radius: 5px;
     transition: 0.3s;
     cursor: pointer;
+}
+
+.about__btn a {
+    color: var(--white);
 }
   
 .about__content {

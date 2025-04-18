@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles-pages/products.css" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <title>Papelaria Trindade</title>
+  </head>
+  <body>
+    <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">PAPELARIA TRINDADE <span>& VARIEDADES</span></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#product">Produtos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="nav__search" id="nav-search">
+          <input type="text" placeholder="Procurar" />
+          <span><i class="ri-search-2-line"></i></span>
+        </div>
+      </nav>
+
+      <section class="products-page">
+        <div class="container">
+          <aside class="sidebar">
+            <h3>Categorias</h3>
+            <ul class="category-list">
+              <li><a href="#" data-category="todos" class="active">Todos</a></li>
+              <li><a href="#" data-category="papelaria">Papelaria</a></li>
+              <li><a href="#" data-category="escolar">Material Escolar</a></li>
+              <li><a href="#" data-category="escritorio">Escritório</a></li>
+              <li><a href="#" data-category="informatica">Informática</a></li>
+            </ul>
+          </aside>
+      
+          <div class="products">
+            <div class="product-card" data-category="papelaria">
+              <img src="../images/produto-3.png" alt="Produto 1" />
+              <h4>Cartolina</h4>
+              <p class="price">R$ 2,00</p>
+              <button>Comprar</button>
+            </div>
+
+            <div class="product-card" data-category="papelaria">
+                <img src="../images/produto-14.png" alt="Produto 1" />
+                <h4>Pincel Artístico Chato</h4>
+                <p class="price">R$ 5,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card" data-category="papelaria">
+                <img src="../images/produto-15.png" alt="Produto 1" />
+                <h4>Marca Texto</h4>
+                <p class="price">R$ 4,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card" data-category="papelaria">
+                <img src="../images/produto-16.png" alt="Produto 1" />
+                <h4>Pasta</h4>
+                <p class="price">R$ 5,00</p>
+                <button>Comprar</button>
+            </div>
+      
+            <div class="product-card" data-category="escolar">
+              <img src="../images/produto-2.png" alt="Produto 2" />
+              <h4>Caderno 10 Matérias</h4>
+              <p class="price">R$ 25,90</p>
+              <button>Comprar</button>
+            </div>
+
+            <div class="product-card" data-category="escolar">
+                <img src="../images/produto-5.png" alt="Produto 2" />
+                <h4>Bolsa</h4>
+                <p class="price">R$ 84,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card" data-category="escolar">
+                <img src="../images/produto-4.png" alt="Produto 2" />
+                <h4>Cola Isopor</h4>
+                <p class="price">R$ 5,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card" data-category="escolar">
+                <img src="../images/produto-13.png" alt="Produto 2" />
+                <h4>Tesoura</h4>
+                <p class="price">R$ 4,00</p>
+                <button>Comprar</button>
+            </div>
+      
+            <div class="product-card" data-category="escritorio">
+              <img src="../images/produto-1.png" alt="Produto 3" />
+              <h4>Caneta</h4>
+              <p class="price">R$ 2,00</p>
+              <button>Comprar</button>
+            </div>
+
+            <div class="product-card" data-category="escritorio">
+                <img src="../images/produto-10.png" alt="Produto 3" />
+                <h4>Clipes</h4>
+                <p class="price">R$ 4,50</p>
+                <button>Comprar</button>
+              </div>
+
+              <div class="product-card" data-category="escritorio">
+                <img src="../images/produto-11.png" alt="Produto 3" />
+                <h4>Grampeador</h4>
+                <p class="price">R$ 13,00</p>
+                <button>Comprar</button>
+              </div>
+
+              <div class="product-card" data-category="escritorio">
+                <img src="../images/produto-12.png" alt="Produto 3" />
+                <h4>Envelope</h4>
+                <p class="price">R$ 1,50</p>
+                <button>Comprar</button>
+              </div>
+      
+            <div class="product-card" data-category="informatica">
+              <img src="../images/produto-6.png" alt="Produto 4" />
+              <h4>Carregador</h4>
+              <p class="price">R$ 35,00</p>
+              <button>Comprar</button>
+            </div>
+
+            <div class="product-card" data-category="informatica">
+                <img src="../images/produto-7.png" alt="Produto 4" />
+                <h4>Cabo de carregador</h4>
+                <p class="price">R$ 15,00</p>
+                <button>Comprar</button>
+              </div>
+
+              <div class="product-card" data-category="informatica">
+                <img src="../images/produto-8.png" alt="Produto 4" />
+                <h4>Cabo de carregador</h4>
+                <p class="price">R$ 20,00</p>
+                <button>Comprar</button>
+              </div>
+
+              <div class="product-card" data-category="informatica">
+                <img src="../images/produto-9.png" alt="Produto 4" />
+                <h4>Fonte USB</h4>
+                <p class="price">R$ 20,00</p>
+                <button>Comprar</button>
+              </div>
+      
+          </div>
+        </div>
+      </section>
+            
+
+      <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+                <a href="#" class="logo">PAPELARIA TRINDADE <span>& VARIEDADES</span></a>
+            </div>
+            <p>
+              Oferecendo variedade, qualidade e um atendimento especial há mais de 5 anos em Parauapebas. Agora também no digital.
+            </p>
+            <ul class="footer__socials">
+              <li>
+                <a href="https://wa.me/message/CNTJ6DQMJW7JD1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/papelaria_trindade" target="_blank"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Atendimento</h4>
+            <ul class="footer__links">
+              <li><a href="#contato">Fale Conosco</a></li>
+              <li><a href="#produtos">Produtos</a></li>
+              <li><a href="#sobre">Sobre a Loja</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Informações</h4>
+            <ul class="footer__links">
+              <li><a href="#">Política de Privacidade</a></li>
+              <li><a href="#">Termos de Serviço</a></li>
+              <li><a href="#">Entrega e Devoluções</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Ajuda</h4>
+            <ul class="footer__links">
+              <li><a href="#">Perguntas Frequentes</a></li>
+              <li><a href="#">Suporte</a></li>
+              <li><a href="#">Formas de Pagamento</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bar">
+          Copyright &copy; 2025 Papelaria Trindade. Todos os direitos reservados.
+        </div>
+      </footer>
+
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="../main.js"></script>
+  </body>
+</html>
