@@ -298,6 +298,11 @@ nav {
 .about__btn a {
     color: var(--white);
 }
+
+.about__btn:hover {
+    background: #444;
+    box-shadow: 0 0 1rem var(--primary-color);
+}
   
 .about__content {
     margin-top: 2rem;
@@ -333,9 +338,7 @@ nav {
 }
 
 .services__container {
-    padding: 4rem 1rem;
-    background-color: var(--extra-light);
-    border-radius: 1rem;
+    padding: 1rem;
 }
   
 .services__grid {
