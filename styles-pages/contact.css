@@ -81,4 +81,10 @@
     background: #1a1a2e;
     box-shadow: 0 0 1rem var(--primary-color);
   }
+
+  @media (max-width: 768px) {
+    .section__title {
+      margin-top: 95px;
+    }
+  }
   
