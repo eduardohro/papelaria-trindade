@@ -83,4 +83,20 @@
     font-weight: bold;
     color: #e60000;
   }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      margin-top: 100px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .products {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
   
